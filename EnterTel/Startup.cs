@@ -29,8 +29,8 @@ namespace EnterTel
         {
             services.AddDbContext<EnterTelContext>(options
                 => options.UseSqlite(
-                    Configuration.GetConnectionString("ApplicationContext"),
-                    b => b.MigrationsAssembly("EnterTel.DAL")
+                    Configuration.GetConnectionString("EnterTelContext"),
+                    b => b.MigrationsAssembly("EnterTel")
                     ));
 
             services.AddControllers();
