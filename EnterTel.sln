@@ -1,0 +1,36 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterTel", "EnterTel\EnterTel.csproj", "{92802BC1-5C61-4F9D-B953-A3ADA43A11B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2BC61BC9-8581-434C-96BB-322C97346D80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterTel.Models", "EnterTel\EnterTel.Models\EnterTel.Models.csproj", "{AE9B1CC0-3D0B-43C0-A089-25DC24D01D0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterTel.DAL", "EnterTel\EnterTel.DAL\EnterTel.DAL.csproj", "{88448052-9FFD-42D1-BC7E-B67288C37BB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92802BC1-5C61-4F9D-B953-A3ADA43A11B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92802BC1-5C61-4F9D-B953-A3ADA43A11B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92802BC1-5C61-4F9D-B953-A3ADA43A11B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92802BC1-5C61-4F9D-B953-A3ADA43A11B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE9B1CC0-3D0B-43C0-A089-25DC24D01D0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE9B1CC0-3D0B-43C0-A089-25DC24D01D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE9B1CC0-3D0B-43C0-A089-25DC24D01D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE9B1CC0-3D0B-43C0-A089-25DC24D01D0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88448052-9FFD-42D1-BC7E-B67288C37BB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88448052-9FFD-42D1-BC7E-B67288C37BB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88448052-9FFD-42D1-BC7E-B67288C37BB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88448052-9FFD-42D1-BC7E-B67288C37BB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{92802BC1-5C61-4F9D-B953-A3ADA43A11B3} = {2BC61BC9-8581-434C-96BB-322C97346D80}
+		{AE9B1CC0-3D0B-43C0-A089-25DC24D01D0E} = {2BC61BC9-8581-434C-96BB-322C97346D80}
+		{88448052-9FFD-42D1-BC7E-B67288C37BB8} = {2BC61BC9-8581-434C-96BB-322C97346D80}
+	EndGlobalSection
+EndGlobal
