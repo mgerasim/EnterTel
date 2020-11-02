@@ -9,6 +9,20 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterTel.DAL", "EnterTel.DA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterTel.Models", "EnterTel.Models\EnterTel.Models.csproj", "{8390CAA7-5B5A-47FF-9049-12981FC89B40}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{FA048C1B-FA1C-4EC5-81A0-2F3039717B54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterTel.IntegrationTests", "EnterTel.IntegrationTests\EnterTel.IntegrationTests.csproj", "{A2C0A7E0-6F14-4325-95AA-C7A21A6A9E73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterTel.Auth", "EnterTel.Auth\EnterTel.Auth.csproj", "{B25A3E46-F4BF-4757-BEBE-B3F8C6DD543E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E9FF33D8-3ACE-4307-9C7F-1F0CE17CE555}"
+	ProjectSection(SolutionItems) = preProject
+		nginx.conf = nginx.conf
+		install.sh = install.sh
+		deploy.sh = deploy.sh
+		EnterTel.service = EnterTel.service
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,10 +41,20 @@ Global
 		{8390CAA7-5B5A-47FF-9049-12981FC89B40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8390CAA7-5B5A-47FF-9049-12981FC89B40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8390CAA7-5B5A-47FF-9049-12981FC89B40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2C0A7E0-6F14-4325-95AA-C7A21A6A9E73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2C0A7E0-6F14-4325-95AA-C7A21A6A9E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2C0A7E0-6F14-4325-95AA-C7A21A6A9E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2C0A7E0-6F14-4325-95AA-C7A21A6A9E73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B25A3E46-F4BF-4757-BEBE-B3F8C6DD543E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B25A3E46-F4BF-4757-BEBE-B3F8C6DD543E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B25A3E46-F4BF-4757-BEBE-B3F8C6DD543E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B25A3E46-F4BF-4757-BEBE-B3F8C6DD543E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{92802BC1-5C61-4F9D-B953-A3ADA43A11B3} = {2BC61BC9-8581-434C-96BB-322C97346D80}
 		{C804EC80-61AA-42A1-8E7E-37CDED33EBE9} = {2BC61BC9-8581-434C-96BB-322C97346D80}
 		{8390CAA7-5B5A-47FF-9049-12981FC89B40} = {2BC61BC9-8581-434C-96BB-322C97346D80}
+		{A2C0A7E0-6F14-4325-95AA-C7A21A6A9E73} = {FA048C1B-FA1C-4EC5-81A0-2F3039717B54}
+		{B25A3E46-F4BF-4757-BEBE-B3F8C6DD543E} = {2BC61BC9-8581-434C-96BB-322C97346D80}
 	EndGlobalSection
 EndGlobal

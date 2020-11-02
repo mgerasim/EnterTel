@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 using EnterTel.Models.Models.Base;
 
 namespace EnterTel.Models.Models
@@ -11,11 +12,15 @@ namespace EnterTel.Models.Models
         /// <summary>
         /// Наименование
         /// </summary>
+        [Required]
         public string Title { get; set; }
 
         /// <summary>
         /// Подразделение 
         /// </summary>
+        [Required]
+        public int DivisionId { get; set; }
+
         public Division Division { get; set; }
 
         /// <summary>

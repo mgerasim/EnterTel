@@ -21,6 +21,8 @@ namespace EnterTel
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+
+                    webBuilder.UseWebRoot("public");
                 });
     }
 }
